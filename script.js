@@ -1,3 +1,13 @@
+
+
+
+
+
+
+
+
+
+
 let time = 0;
 let counterElement = document.getElementById("time");
 
@@ -6,4 +16,4 @@ function updateCounter(){
     counterElement.textContent = time;
 }
 
-setInterval(updateCounter, 60000);
+setInterval(updateCounter, no);
